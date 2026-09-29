@@ -1,3 +1,4 @@
+import SiteConnector from "@/components/SiteConnector";
 import { discoverContentTypes } from "@/lib/wordpress";
 
 export default async function Home() {
@@ -6,6 +7,7 @@ export default async function Home() {
   return (
     <main>
       <h1>MultiSite Content Hub</h1>
+      <SiteConnector />
 
       <h2>Discovered Content Types</h2>
 
